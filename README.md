@@ -120,7 +120,7 @@ Two primary data augmentation techniques have been applied to the datasets:
 - Training and validation performance metrics, including loss and accuracy, are logged for each epoch.
 <figure>
 <img src="images/model-architecture.png" alt="Customized CNN Model Architecture" >
-  <figcaption>Customized CNN Model Architecture</figcaption>
+  <figcaption style="text-align:center;">Customized CNN Model Architecture</figcaption>
 </figure>
 
 ### Detailed Description of Model Architecture:
