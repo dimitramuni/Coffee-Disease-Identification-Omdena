@@ -93,6 +93,8 @@ Two primary data augmentation techniques have been applied to the datasets:
    - The `class_label_distribution` function is defined to analyze the distribution of class labels in each dataset (training, validation, and test).
    - It prints the number of classes in the dataset and the count of labels for each class.
    - The class distribution is visualized using pie charts.
+   
+   <img src="images/training-dataset.png" alt="Training Set" height="50%">
 
    ![Training Set](images/training-dataset.png)
 
