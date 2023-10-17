@@ -107,6 +107,7 @@ Two primary data augmentation techniques have been applied to the datasets:
 - The model is compiled with the 'adam' optimizer and 'SparseCategoricalCrossentropy' loss function. Optimizer is not tuned at the moment.
 - The model is trained using the `fit` method with the `train` dataset. Training continues for 100 epochs with a specified batch size of 32.
 - Training and validation performance metrics, including loss and accuracy, are logged for each epoch.
+![Customized CNN Model](/Users/muni/Desktop/Coffee-Disease-Identification-Omdena/images/model-architecture.png)
 
 ### Detailed Description of Model Architecture:
 
