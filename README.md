@@ -94,7 +94,7 @@ Two primary data augmentation techniques have been applied to the datasets:
    - It prints the number of classes in the dataset and the count of labels for each class.
    - The class distribution is visualized using pie charts.
    
-   <img src="images/training-dataset.png" alt="Training Set" height="20%">
+   <img src="images/training-dataset.png" alt="Training Set" width="50" height="30">
 
    ![Training Set](images/training-dataset.png)
 
