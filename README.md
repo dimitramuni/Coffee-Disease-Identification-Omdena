@@ -94,13 +94,15 @@ Two primary data augmentation techniques have been applied to the datasets:
    - It prints the number of classes in the dataset and the count of labels for each class.
    - The class distribution is visualized using pie charts.
    
-   <img src="images/training-dataset.png" alt="Training Set" width="500" height="600">
+  ## Training Data Distribution
+  <img src="images/training-dataset.png" alt="Training Set" width="500" height="600">
+   
+  ## Validation Data Distribution
+   <img src="images/validation-dataset.png" alt="Validation Set" width="500" height="600">
+         
+  ## Test Data Distribution
+   <img src="images/test-dataset.png" alt="Test Set" width="500" height="600">
 
-   ![Training Set](images/training-dataset.png)
-
-   ![Validation Set](images/validation-dataset.png)
-
-   ![Test Set](images/test-dataset.png)
 
 
 7. **Data Optimization:**
@@ -164,4 +166,7 @@ This model consists of a series of convolutional and max-pooling layers for feat
 
 ## Model Evaluation
 
-![Training and Validation Curves](images/training-validation-curves.png)
+<figure>
+<img src="images/training-validation-curves.png" alt="Training and Validation Curves" width="500" height="600">
+  <figcaption>Training and Validation Curves</figcaption>
+</figure>
