@@ -118,8 +118,10 @@ Two primary data augmentation techniques have been applied to the datasets:
 - The model is compiled with the 'adam' optimizer and 'SparseCategoricalCrossentropy' loss function. Optimizer is not tuned at the moment.
 - The model is trained using the `fit` method with the `train` dataset. Training continues for 100 epochs with a specified batch size of 32.
 - Training and validation performance metrics, including loss and accuracy, are logged for each epoch.
-
-![Customized CNN Model](images/model-architecture.png)
+<figure>
+<img src="images/model-architecture.png" alt="Customized CNN Model Architecture" width="800" height="600">
+  <figcaption style="text-align:center;">Customized CNN Model Architecture</figcaption>
+</figure>
 
 ### Detailed Description of Model Architecture:
 
