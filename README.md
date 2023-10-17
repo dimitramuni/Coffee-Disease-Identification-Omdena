@@ -119,7 +119,7 @@ Two primary data augmentation techniques have been applied to the datasets:
 - The model is trained using the `fit` method with the `train` dataset. Training continues for 100 epochs with a specified batch size of 32.
 - Training and validation performance metrics, including loss and accuracy, are logged for each epoch.
 <figure>
-<img src="images/model-architecture.png" alt="Customized CNN Model Architecture" width="800" height="600">
+<img src="images/model-architecture.png" alt="Customized CNN Model Architecture" >
   <figcaption style="text-align:center;">Customized CNN Model Architecture</figcaption>
 </figure>
 
