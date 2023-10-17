@@ -95,8 +95,9 @@ Two primary data augmentation techniques have been applied to the datasets:
    - The class distribution is visualized using pie charts.
    
   ## Training Data Distribution
-  <img src="images/training-dataset.png" alt="Training Set" width="500" height="600">
-   
+  <div style="text-align:center;">
+      <img src="images/training-dataset.png" alt="Training Set" width="500" height="600">
+ </div>
   ## Validation Data Distribution
    <img src="images/validation-dataset.png" alt="Validation Set" width="500" height="600">
          
@@ -119,8 +120,10 @@ Two primary data augmentation techniques have been applied to the datasets:
 - The model is trained using the `fit` method with the `train` dataset. Training continues for 100 epochs with a specified batch size of 32.
 - Training and validation performance metrics, including loss and accuracy, are logged for each epoch.
 <figure>
+
 <img src="images/model-architecture.png" alt="Customized CNN Model Architecture" >
   <figcaption style="text-align:center;">Customized CNN Model Architecture</figcaption>
+
 </figure>
 
 ### Detailed Description of Model Architecture:
