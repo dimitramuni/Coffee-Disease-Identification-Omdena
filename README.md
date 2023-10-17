@@ -94,6 +94,13 @@ Two primary data augmentation techniques have been applied to the datasets:
    - It prints the number of classes in the dataset and the count of labels for each class.
    - The class distribution is visualized using pie charts.
 
+   ![Training Set](images/training-dataset.png)
+
+   ![Validation Set](images/validation-dataset.png)
+
+   ![Test Set](images/test-dataset.png)
+
+
 7. **Data Optimization:**
    - In order to optimize the performance, tf.data API is used. The data is pre-fetched using `tf.data.Dataset.prefetch` transformation, which according to the documentation saves time by reading the data for the next step while the model is executing the current step. Furthermore, `tf.data.Dataset.cache` transformation is applied which saves time by caching the dataset in the memory.
 
@@ -107,6 +114,7 @@ Two primary data augmentation techniques have been applied to the datasets:
 - The model is compiled with the 'adam' optimizer and 'SparseCategoricalCrossentropy' loss function. Optimizer is not tuned at the moment.
 - The model is trained using the `fit` method with the `train` dataset. Training continues for 100 epochs with a specified batch size of 32.
 - Training and validation performance metrics, including loss and accuracy, are logged for each epoch.
+
 ![Customized CNN Model](images/model-architecture.png)
 
 ### Detailed Description of Model Architecture:
@@ -151,3 +159,7 @@ This model consists of a series of convolutional and max-pooling layers for feat
 - Prior to the model training (model.fit method), the model is compiled using the `model.compile` method with the Adam optimizer chosen with default hyperparameters (i.e., learning rate of 0.001).
 - The model is trained for 100 epochs, with a batch size of 32.
 - Model training is evaluated using metrics such as training accuracy, training loss, validation accuracy, and validation loss.
+
+## Model Evaluation
+
+![Training and Validation Curves](images/training-validation-curves.png)
