@@ -168,5 +168,5 @@ This model consists of a series of convolutional and max-pooling layers for feat
 
 <figure>
 <img src="images/training-validation-curves.png" alt="Training and Validation Curves" width="800" height="600">
-  <figcaption>Training and Validation Curves</figcaption>
+  <figcaption style="text-align:center;">Training and Validation Curves</figcaption>
 </figure>
